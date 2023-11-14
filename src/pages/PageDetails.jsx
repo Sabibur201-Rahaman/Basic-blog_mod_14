@@ -11,7 +11,7 @@ function PageDetails() {
   let[list,setList]=useState(null)
   let{postID}=useParams()
   useEffect(()=>{
-    postDetails(postID).then((res)=>{
+  postDetails(postID).then((res)=>{
       setList(res)
     })
   },[postID])
