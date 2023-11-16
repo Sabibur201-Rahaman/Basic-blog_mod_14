@@ -69,7 +69,7 @@ function LayOut(props) {
             return (
               <li key={i.toString()}>
                   <NavLink  to={"/category/" + item["id"]}>
-                    {item["name"]}
+                    {item["name"]}  
                   </NavLink>
                 </li>
             );
